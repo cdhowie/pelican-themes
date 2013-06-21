@@ -152,6 +152,14 @@ table th[class*="span"],
 }
 
 
+/* Lists
+--------------------------------------------------------- */
+.entry-content ul {
+    list-style: disc outside;
+    margin-left: 30px;
+}
+
+
 /* Navigation
 --------------------------------------------------------- */
 #banner strong {display:block;}
