@@ -162,8 +162,15 @@ table th[class*="span"],
 
 /* Navigation
 --------------------------------------------------------- */
-#banner strong {display:block;}
-#banner h1 { font-size:3.25rem }
+#banner .subtitle {
+    display: block;
+    font-size: 50%;
+    font-weight: 300;
+}
+#banner h1 {
+    font-size: 3.25rem;
+    font-weight: 600;
+}
 
 .no-touch .navbar ul li.active > a {
   
@@ -182,6 +189,14 @@ address { font-size:14px; margin-bottom:10px;}
 
 /* Typography
 --------------------------------------------------------- */
+
+h1 {
+    font-size: 3.25rem;
+}
+
+h2 {
+    font-size: 2.25rem;
+}
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     color: #3498DB;
